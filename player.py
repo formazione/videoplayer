@@ -14,8 +14,6 @@ def launch_mp4(event):
 	get_filename = lb.get(cur)
 	os.startfile(get_filename)
 
-
-
 lb.bind("<Double-Button>", launch_mp4)
 
 def launch_youtube(event):
